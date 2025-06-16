@@ -2,7 +2,7 @@
 
 Accepted by CVPR 2025
 
-### [Paper](https://arxiv.org/pdf/2503.19443) | [arXiv](https://arxiv.org/abs/2503.19443)
+### [Webpage](https://cob-gs.github.io/) | [Paper](https://arxiv.org/pdf/2503.19443) | [arXiv](https://arxiv.org/abs/2503.19443)
 
 This repository contains the official authors implementation associated with the paper "COB-GS: Clear Object Boundaries in 3DGS Segmentation Based on Boundary-Adaptive Gaussian Splitting". We further introduce how to complete 3DGS segmentation with only images and text prompts.
 
