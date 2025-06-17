@@ -26,6 +26,7 @@ To prepare the environment,
 	```
 	cd submodules
     git clone https://github.com/IDEA-Research/Grounded-SAM-2.git
+    cd Grounded-SAM-2
     cd checkpoints
     wget https://dl.fbaipublicfiles.com/segment_anything_2/092824/sam2.1_hiera_large.pt
     cd ..
