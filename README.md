@@ -28,7 +28,7 @@ To prepare the environment,
     git clone https://github.com/IDEA-Research/Grounded-SAM-2.git
     cd Grounded-SAM-2 
     cd checkpoints
-    wget https://dl.fbaipublicfiles.com/segment_anything_2/092824/sam2.1_hiera_large.pt
+    wget https://dl.fbaipublicfiles.com/segment_anything_2/072824/sam2_hiera_large.pt
     cd ..
     cd gdino_checkpoints
     wget https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha2/groundingdino_swinb_cogcoor.pth
