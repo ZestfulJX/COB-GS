@@ -66,10 +66,11 @@ We provide ```process.sh``` to easily implement the complete segmentation proces
 
 Noting the need for fair comparison, we provide [masks](https://drive.google.com/drive/folders/1mMwj1510hb0PMEnxjUpzIDe2N3EL2PUF?usp=sharing) obtained on the [NVOS dataset](https://jason718.github.io/nvos/) based on points prompts. Under our project, just put them under the ```./output``` folder and skip ```Extract masks based on text prompt```. Finally different scenes are evaluated in ```eval/eval_NVOS.py```
 
+We provide code for measuring the visual quality of textures using [CLIP-IQA](https://github.com/IceClear/CLIP-IQA), along with our [visual results](https://drive.google.com/drive/folders/1YVttRg2nskuTCZjobtMu1uiFuPXyISNa?usp=drive_link). but it is important to note that this is only an expedient solution. The reason is that acquiring the real textures of segmented targets is challenging. If you are interested, please stay tuned for our follow-up work.
 ### TODO List
-- [ ]  Update efficient multi-object segmentation.
-- [ ]  Update efficient texture optimizations.
-- [ ]  Provide demo and more visualizations.
+- [✅]  Provide demo and more visualizations.
+- [  ]  Update efficient multi-object segmentation.
+- [  ]  Update efficient texture optimizations.
 
 ## Citation
 *If you find this project helpful for your research, please consider citing the report and giving a ⭐.*
